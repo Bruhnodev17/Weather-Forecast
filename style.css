@@ -57,13 +57,13 @@ img{
     height: 20px;
 }
 
-
 h2{
     color: white;
     font-size: 28px;
     margin-bottom: 30px;
 }
-.temperature{
+
+.temp{
     font-size: 30px;
     margin-bottom: 15px;
 }

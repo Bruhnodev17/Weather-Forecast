@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="shortcut icon" href="src/icon-nuvem.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,19 +15,18 @@
 
 <body>
     <div class="container">
-        <input placeholder="Cidade">
-        <button class="btn-search">
+        <input class="input-city" placeholder="Cidade">
+        <button class="btn-search" onclick="tempInformation()">
             <img src="src/icon-search.png" alt="">
         </button>
 
         <div class="sub-container">
-            <h2>Tempo em Brasília</h2>
-            <p class="temperature">28°C</p>
+            <h2 class="city" >Tempo em Brasília</h2>
+            <p class="temp">28°C</p>
             <p class="about">Nuvens Dispersas</p>
             <p class="moisture">Umidade 70%</p>
         </div>
 
     </div>
 </body>
-
 </html>
